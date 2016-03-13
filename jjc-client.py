@@ -263,52 +263,6 @@ def checkgamestart(newgameid):
             sleep(1)
             continue
 
-# gamestarted = "0"
-#
-# def checkgamestart2(newgameid):
-#     if gamestarted == "0":
-#         url_checkgamestart = url + "/games?filter=id,eq," + newgameid + "&transform=1"
-#         response_checkgamestart = requests.get(url_checkgamestart)
-#         response_checkgamestart_json = response_checkgamestart.json()
-#         print(response_checkgamestart_json)
-#         for cnt_response_checkgamestart in response_checkgamestart_json["games"]:
-#             startscreen_player1.config(text = cnt_response_checkgamestart["player1"])
-#             startscreen_player1.place(x = 700, y = 50, width = 200, height = 50)
-#             startscreen_player2.config(text = cnt_response_checkgamestart["player2"])
-#             startscreen_player2.place(x = 700, y = 100, width = 200, height = 50)
-#             startscreen_player3.config(text = cnt_response_checkgamestart["player3"])
-#             startscreen_player3.place(x = 700, y = 100, width = 200, height = 50)
-#             startscreen_player4.config(text = cnt_response_checkgamestart["player4"])
-#             startscreen_player4.place(x = 700, y = 100, width = 200, height = 50)
-#             startscreen_player5.config(text = cnt_response_checkgamestart["player5"])
-#             startscreen_player5.place(x = 700, y = 250, width = 200, height = 50)
-#             startscreen_player6.config(text = cnt_response_checkgamestart["player6"])
-#             startscreen_player6.place(x = 700, y = 300, width = 200, height = 50)
-#
-#         if cnt_response_checkgamestart["started"] == "1":
-#             global gamestarted
-#             gamestarted = "1"
-#     #master.after(1000, checkgamestart2(newgameid))
-#
-#
-#     #print(response_checknewgame_json["games"]["player1"])
-
-
-# # Start new game - Step2
-# def start_new_game2():
-#     window = tkinter.Toplevel(master)
-#     window.wm_title("Start New Game")
-#     startscreen_username = tkinter.Label(window, text="Name:")
-#     startscreen_username.place(x = 0, y = 0, width=100, height=50)
-#     line2 = tkinter.Canvas(window, width=100,height=100)
-#     line2.create_line(10, 10, 100, 10)
-#     line2.place(x = 0, y = 50, width=100, height=100)
-
-
-# def blub(cnt_ground_fields, ground_x_base, ground_y_base):
-#     b1 = tkinter.Button(master, bg="red", command= lambda: blub(cnt_ground_fields, ground_x_base, ground_y_base))
-#     b1.place(x = ground_x_base, y = ground_y_base, width=button_w, height=button_h)
-
 
 # Make a move
 def buttonclick(cnt_ground_fields, player):
