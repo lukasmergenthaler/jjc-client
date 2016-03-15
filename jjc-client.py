@@ -51,7 +51,7 @@ startscreen_button_6players = tkinter.Button(master, text="6 Players", font="Hel
 startscreen_title1 = tkinter.Label(master, text="JumpJumpChess", font="Helvetica 36 bold")
 startscreen_title1.place(x = 0, y = 0, width = 900, height = 80)
 startscreen_title2 = tkinter.Label(master, text="A Python/Tkinter implementation of Chinese checkers", font="Helvetica 12")
-startscreen_title2.place(x = 0, y = 60, width = 900, height = 60)
+startscreen_title2.place(x = 0, y = 70, width = 900, height = 50)
 startscreen_username = tkinter.Label(master, text="Enter your Name:", font="Helvetica 16 bold")
 startscreen_username.place(x = 250, y = 150, width = 200, height = 50)
 startscreen_gameid = tkinter.Label(master, text="Enter Game ID:", font="Helvetica 16 bold")
